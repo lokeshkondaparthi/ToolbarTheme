@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBa" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <!-- Change color of menu overflow.
+     Ref:(Gabriele Mariotti )answer at  https://stackoverflow.com/questions/29038861/how-to-change-toolbar-navigation-and-overflow-menu-icons-appcompat-v7-->
+    <style name="ToolbarMenuOverFlow" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.MyThemeName" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
